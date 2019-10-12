@@ -1,0 +1,56 @@
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\BLL\bin\Debug\BLL.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\BLL\bin\Debug\BLL.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\BLL\bin\Debug\DAl.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\BLL\bin\Debug\Model.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\BLL\bin\Debug\DAl.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\BLL\bin\Debug\Model.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\BLL\obj\Debug\BLL.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\BLL\obj\Debug\BLL.pdb
+C:\Users\Administrator\Desktop\onlineTest\BLL\bin\Debug\BLL.dll
+C:\Users\Administrator\Desktop\onlineTest\BLL\bin\Debug\BLL.pdb
+C:\Users\Administrator\Desktop\onlineTest\BLL\bin\Debug\DAl.dll
+C:\Users\Administrator\Desktop\onlineTest\BLL\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\onlineTest\BLL\bin\Debug\DAl.pdb
+C:\Users\Administrator\Desktop\onlineTest\BLL\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\onlineTest\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\onlineTest\BLL\obj\Debug\BLL.dll
+C:\Users\Administrator\Desktop\onlineTest\BLL\obj\Debug\BLL.pdb
+C:\Users\刘越\Desktop\onlinTest\onlineTest\BLL\bin\Debug\BLL.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\BLL\bin\Debug\BLL.pdb
+C:\Users\刘越\Desktop\onlinTest\onlineTest\BLL\bin\Debug\DAl.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\BLL\bin\Debug\Model.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\BLL\bin\Debug\DAl.pdb
+C:\Users\刘越\Desktop\onlinTest\onlineTest\BLL\bin\Debug\Model.pdb
+C:\Users\刘越\Desktop\onlinTest\onlineTest\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\刘越\Desktop\onlinTest\onlineTest\BLL\obj\Debug\BLL.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\BLL\obj\Debug\BLL.pdb
+C:\Users\刘越\Desktop\onlinTest\onlineTest\BLL\bin\Debug\NPOI.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\BLL\bin\Debug\NPOI.OOXML.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\BLL\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\BLL\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\BLL\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\刘越\Desktop\onlinTest\后台\BLL\bin\Debug\BLL.dll
+C:\Users\刘越\Desktop\onlinTest\后台\BLL\bin\Debug\BLL.pdb
+C:\Users\刘越\Desktop\onlinTest\后台\BLL\bin\Debug\DAl.dll
+C:\Users\刘越\Desktop\onlinTest\后台\BLL\bin\Debug\Model.dll
+C:\Users\刘越\Desktop\onlinTest\后台\BLL\bin\Debug\NPOI.dll
+C:\Users\刘越\Desktop\onlinTest\后台\BLL\bin\Debug\NPOI.OOXML.dll
+C:\Users\刘越\Desktop\onlinTest\后台\BLL\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\刘越\Desktop\onlinTest\后台\BLL\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\刘越\Desktop\onlinTest\后台\BLL\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\刘越\Desktop\onlinTest\后台\BLL\bin\Debug\DAl.pdb
+C:\Users\刘越\Desktop\onlinTest\后台\BLL\bin\Debug\Model.pdb
+C:\Users\刘越\Desktop\onlinTest\后台\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\刘越\Desktop\onlinTest\后台\BLL\obj\Debug\BLL.dll
+C:\Users\刘越\Desktop\onlinTest\后台\BLL\obj\Debug\BLL.pdb
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\BLL\bin\Debug\BLL.dll
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\BLL\bin\Debug\BLL.pdb
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\BLL\bin\Debug\DAl.dll
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\BLL\bin\Debug\Model.dll
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\BLL\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\BLL\bin\Debug\DAl.pdb
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\BLL\bin\Debug\Model.pdb
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\BLL\obj\Debug\BLL.dll
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\BLL\obj\Debug\BLL.pdb

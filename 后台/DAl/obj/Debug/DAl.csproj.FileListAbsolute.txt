@@ -1,0 +1,17 @@
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\DAl\bin\Debug\DAl.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\DAl\bin\Debug\DAl.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\DAl\obj\Debug\DAl.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\DAl\obj\Debug\DAl.pdb
+C:\Users\Administrator\Desktop\onlineTest\DAl\bin\Debug\DAl.dll
+C:\Users\Administrator\Desktop\onlineTest\DAl\bin\Debug\DAl.pdb
+C:\Users\Administrator\Desktop\onlineTest\DAl\obj\Debug\DAl.dll
+C:\Users\Administrator\Desktop\onlineTest\DAl\obj\Debug\DAl.pdb
+C:\Users\刘越\Desktop\onlinTest\onlineTest\DAl\bin\Debug\DAl.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\DAl\bin\Debug\DAl.pdb
+C:\Users\刘越\Desktop\onlinTest\onlineTest\DAl\obj\Debug\DAl.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\DAl\obj\Debug\DAl.pdb
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\DAl\bin\Debug\DAl.dll
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\DAl\bin\Debug\DAl.pdb
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\DAl\obj\Debug\DAl.csprojResolveAssemblyReference.cache
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\DAl\obj\Debug\DAl.dll
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\DAl\obj\Debug\DAl.pdb

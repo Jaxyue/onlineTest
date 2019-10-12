@@ -1,0 +1,70 @@
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\online\bin\online.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\online\bin\online.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\online\obj\Debug\online.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\online\obj\Debug\online.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\online\obj\Debug\online.csprojResolveAssemblyReference.cache
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\online\bin\BLL.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\online\bin\DAl.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\online\bin\Model.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\online\bin\BLL.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\online\bin\DAl.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\online\bin\Model.pdb
+C:\Users\Administrator\Desktop\onlineTest\online\obj\Debug\online.dll
+C:\Users\Administrator\Desktop\onlineTest\online\obj\Debug\online.pdb
+C:\Users\Administrator\Desktop\onlineTest\online\bin\online.dll
+C:\Users\Administrator\Desktop\onlineTest\online\bin\online.pdb
+C:\Users\Administrator\Desktop\onlineTest\online\bin\BLL.dll
+C:\Users\Administrator\Desktop\onlineTest\online\bin\DAl.dll
+C:\Users\Administrator\Desktop\onlineTest\online\bin\Model.dll
+C:\Users\Administrator\Desktop\onlineTest\online\bin\BLL.pdb
+C:\Users\Administrator\Desktop\onlineTest\online\bin\DAl.pdb
+C:\Users\Administrator\Desktop\onlineTest\online\bin\Model.pdb
+C:\Users\Administrator\Desktop\onlineTest\online\obj\Debug\online.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\onlineTest\online\bin\Newtonsoft.Json.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\online\bin\online.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\online\bin\online.pdb
+C:\Users\刘越\Desktop\onlinTest\onlineTest\online\bin\BLL.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\online\bin\DAl.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\online\bin\Model.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\online\bin\Newtonsoft.Json.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\online\bin\BLL.pdb
+C:\Users\刘越\Desktop\onlinTest\onlineTest\online\bin\DAl.pdb
+C:\Users\刘越\Desktop\onlinTest\onlineTest\online\bin\Model.pdb
+C:\Users\刘越\Desktop\onlinTest\onlineTest\online\obj\Debug\online.csprojResolveAssemblyReference.cache
+C:\Users\刘越\Desktop\onlinTest\onlineTest\online\obj\Debug\online.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\online\obj\Debug\online.pdb
+C:\Users\刘越\Desktop\onlinTest\onlineTest\online\bin\NPOI.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\online\bin\NPOI.OOXML.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\online\bin\NPOI.OpenXml4Net.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\online\bin\NPOI.OpenXmlFormats.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\online\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\刘越\Desktop\onlinTest\后台\online\bin\online.dll
+C:\Users\刘越\Desktop\onlinTest\后台\online\bin\online.pdb
+C:\Users\刘越\Desktop\onlinTest\后台\online\bin\BLL.dll
+C:\Users\刘越\Desktop\onlinTest\后台\online\bin\DAl.dll
+C:\Users\刘越\Desktop\onlinTest\后台\online\bin\Model.dll
+C:\Users\刘越\Desktop\onlinTest\后台\online\bin\Newtonsoft.Json.dll
+C:\Users\刘越\Desktop\onlinTest\后台\online\bin\NPOI.dll
+C:\Users\刘越\Desktop\onlinTest\后台\online\bin\NPOI.OOXML.dll
+C:\Users\刘越\Desktop\onlinTest\后台\online\bin\NPOI.OpenXml4Net.dll
+C:\Users\刘越\Desktop\onlinTest\后台\online\bin\NPOI.OpenXmlFormats.dll
+C:\Users\刘越\Desktop\onlinTest\后台\online\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\刘越\Desktop\onlinTest\后台\online\bin\BLL.pdb
+C:\Users\刘越\Desktop\onlinTest\后台\online\bin\DAl.pdb
+C:\Users\刘越\Desktop\onlinTest\后台\online\bin\Model.pdb
+C:\Users\刘越\Desktop\onlinTest\后台\online\obj\Debug\online.csprojResolveAssemblyReference.cache
+C:\Users\刘越\Desktop\onlinTest\后台\online\obj\Debug\online.dll
+C:\Users\刘越\Desktop\onlinTest\后台\online\obj\Debug\online.pdb
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\online\bin\online.dll
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\online\bin\online.pdb
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\online\bin\BLL.dll
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\online\bin\DAl.dll
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\online\bin\Model.dll
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\online\bin\Newtonsoft.Json.dll
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\online\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\online\bin\BLL.pdb
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\online\bin\DAl.pdb
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\online\bin\Model.pdb
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\online\obj\Debug\online.csprojResolveAssemblyReference.cache
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\online\obj\Debug\online.dll
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\online\obj\Debug\online.pdb

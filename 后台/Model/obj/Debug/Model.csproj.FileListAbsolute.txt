@@ -1,0 +1,18 @@
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\Model\bin\Debug\Model.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\Model\bin\Debug\Model.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\Model\obj\Debug\Model.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\onlineTest\Model\obj\Debug\Model.pdb
+C:\Users\Administrator\Desktop\onlineTest\Model\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\onlineTest\Model\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\onlineTest\Model\obj\Debug\Model.dll
+C:\Users\Administrator\Desktop\onlineTest\Model\obj\Debug\Model.pdb
+C:\Users\刘越\Desktop\onlinTest\onlineTest\Model\bin\Debug\Model.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\Model\bin\Debug\Model.pdb
+C:\Users\刘越\Desktop\onlinTest\onlineTest\Model\obj\Debug\Model.dll
+C:\Users\刘越\Desktop\onlinTest\onlineTest\Model\obj\Debug\Model.pdb
+C:\Users\刘越\Desktop\onlinTest\onlineTest\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\Model\bin\Debug\Model.dll
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\Model\bin\Debug\Model.pdb
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\Model\obj\Debug\Model.dll
+C:\Users\刘越\Desktop\My Files\onlinTest\后台\Model\obj\Debug\Model.pdb

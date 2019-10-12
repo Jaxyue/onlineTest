@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="assets/materialize/css/materialize.min.css" media="screen,projection" />
+		<!-- Bootstrap Styles-->
+		<link href="assets/css/bootstrap.css" rel="stylesheet" />
+		<!-- FontAwesome Styles-->
+		<link href="assets/css/font-awesome.css" rel="stylesheet" />
+		<!-- Morris Chart Styles-->
+		<link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
+		<!-- Custom Styles-->
+		<link href="assets/css/custom-styles.css" rel="stylesheet" />
+		<!-- Google Fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="assets/js/Lightweight-Chart/cssCharts.css">
+		<link rel="stylesheet" href="css/comm.css" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<nav class="navbar navbar-default top-navbar" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle waves-effect waves-dark" data-toggle="collapse" data-target=".sidebar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand waves-effect waves-dark" href="index.html"><i class="large material-icons">track_changes</i>
+						<strong>onlineTest</strong></a>
+
+					<div id="sideNav" href=""><i class="material-icons dp48">toc</i></div>
+				</div>
+
+				<ul class="nav navbar-top-links navbar-right">
+
+					<li><a class="dropdown-button waves-effect waves-dark" href="#!" data-activates="dropdown1"><i class="fa fa-user fa-fw"></i>
+							<b></b> <i class="material-icons right">arrow_drop_down</i></a></li>
+				</ul>
+			</nav>
+			<!-- Dropdown Structure -->
+			<ul id="dropdown1" class="dropdown-content">
+				<li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+				</li>
+			</ul>
+
+
+			<!--/. NAV TOP  -->
+			<nav class="navbar-default navbar-side" role="navigation">
+				<div class="sidebar-collapse" id="menu">
+
+
+				</div>
+
+			</nav>
+			<!-- /. NAV SIDE  -->
+
+			<div id="page-wrapper">
+				<div class="header">
+					<h1 class="page-header">
+						试题管理
+					</h1>
+
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xs-12 col-md-12">
+
+								<input type="button" name="" id="" class="btn btn-active-primary" data-toggle='modal' data-target='#add' value="添加试题" />
+								<input type="button" class="btn btn-info" onclick="down()" value="下载当前表"/>
+								<br />
+								<hr />
+								<h2>目前题库里所有试题</h2><br />
+								<table id="table" class="Table table table-bordered table-vcenter"></table>
+
+							</div>
+
+
+
+
+						</div>
+					</div>
+
+
+				</div>
+				<!-- 添加模态框 -->
+				<div class="modal fade" id="add" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel">添加试题</h4>
+								
+							</div>
+							<div class="modal-body">
+								<div class="form-horizontal">
+									<div class="panel-body">
+				
+				
+										<input type="hidden" class="form-control add" />
+				
+										<div class="form-group">
+											<label class="col-sm-3 control-label" for="demo-hor-inputemail">题目：</label>
+											<div class="col-sm-9">
+												<input type="text" class="form-control add" />
+											</div>
+										</div>
+										
+										<div class="form-group">
+											<label class="col-sm-3 control-label" for="demo-hor-inputemail">A、：</label>
+											<div class="col-sm-9">
+												<input type="text" class="form-control add" />
+											</div>
+										</div>
+										
+										<div class="form-group">
+											<label class="col-sm-3 control-label" for="demo-hor-inputemail">B、：</label>
+											<div class="col-sm-9">
+												<input type="text" class="form-control add" />
+											</div>
+										</div>
+										
+										<div class="form-group">
+											<label class="col-sm-3 control-label" for="demo-hor-inputemail">C、：</label>
+											<div class="col-sm-9">
+												<input type="text" class="form-control add" />
+											</div>
+										</div>
+										
+										<div class="form-group">
+											<label class="col-sm-3 control-label" for="demo-hor-inputemail">D、：</label>
+											<div class="col-sm-9">
+												<input type="text" class="form-control add" />
+											</div>
+										</div>
+										
+										<div class="form-group">
+											<label class="col-sm-3 control-label" for="demo-hor-inputemail">正确答案：</label>
+											<div class="col-sm-9">
+												<!-- <input type="text"  /> -->
+												<select class="form-control" id="Faculty">
+												
+												</select>
+											</div>
+										</div>
+										
+										<div class="form-group">
+											<label class="col-sm-3 control-label" for="demo-hor-inputemail">专业：</label>
+											<div class="col-sm-9">
+												<!-- <input type="text"  /> -->
+												<select class="form-control add">
+													<option value="1">电子商务基础</option>
+													<option value="2">管理学</option>
+													<option value="3">连锁企业门店营运管理</option>
+													<option value="4">统计学原理</option>
+													<option value="5">市场营销原理</option>
+													<option value="6">计算机网络技术</option>
+													<option value="7">大数据应用基础</option>
+													<option value="8">软件开发</option>
+													<option value="9">嵌入式设计开发</option>
+													<option value="10">安卓应用技术开发</option>
+													<option value="11">企业会计</option>
+													<option value="12">国际会计</option>
+													<option value="13">注册会计师</option>
+													<option value="14">计算机与财务管理</option>
+													<option value="15">财务管理</option>
+													<option value="16">旅游学概论</option>
+													<option value="17">旅游管理学</option>
+													<option value="18">旅游政策与法规</option>
+													<option value="19">酒店管理学</option>
+													<option value="20">旅游经济学</option>
+													<option value="21">环境设计</option>
+													<option value="22">视觉传达设计</option>
+													<option value="23">服装与服饰设计</option>
+													<option value="24">音乐学</option>
+													<option value="25">美术学</option>
+												</select>
+											</div>
+										</div>
+									</div>
+								</div>
+				
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">放弃添加</button>
+								<button type="button" class="btn btn-primary" onclick="Add(this)">确定添加</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //修改模态框 -->
+				<div class="modal fade" id="Modify" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel">修改试题</h4>
+							</div>
+							<div class="modal-body">
+								<div class="form-horizontal">
+									<div class="panel-body">
+
+
+										<input type="hidden" class="form-control Modify" />
+
+										<div class="form-group">
+											<label class="col-sm-3 control-label" for="demo-hor-inputemail">题目：</label>
+											<div class="col-sm-9">
+												<input type="text" class="form-control Modify" />
+											</div>
+										</div>
+										
+										<div class="form-group">
+											<label class="col-sm-3 control-label" for="demo-hor-inputemail">A、：</label>
+											<div class="col-sm-9">
+												<input type="text" class="form-control Modify" />
+											</div>
+										</div>
+										
+										<div class="form-group">
+											<label class="col-sm-3 control-label" for="demo-hor-inputemail">B、：</label>
+											<div class="col-sm-9">
+												<input type="text" class="form-control Modify" />
+											</div>
+										</div>
+										
+										<div class="form-group">
+											<label class="col-sm-3 control-label" for="demo-hor-inputemail">C、：</label>
+											<div class="col-sm-9">
+												<input type="text" class="form-control Modify" />
+											</div>
+										</div>
+										
+										<div class="form-group">
+											<label class="col-sm-3 control-label" for="demo-hor-inputemail">D、：</label>
+											<div class="col-sm-9">
+												<input type="text" class="form-control Modify" />
+											</div>
+										</div>
+										
+										<div class="form-group">
+											<label class="col-sm-3 control-label" for="demo-hor-inputemail">正确答案：</label>
+											<div class="col-sm-9">
+												<!-- <input type="text"  /> -->
+												<select class="form-control Modify">
+													<option>A</option>
+													<option>B</option>
+													<option>C</option>
+													<option>D</option>
+												</select>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">放弃修改</button>
+								<button type="button" class="btn btn-primary" onclick="Modi(this)">确定修改</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- /. ROW  -->
+
+			</div>
+
+
+
+	</body>
+	<script src="jquery/jquery-3.2.1.min.js"></script>
+	<script src="bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery-1.10.2.js"></script>
+	<script src="js/Paper-Management.js"></script>
+
+	<!-- Bootstrap Js -->
+	<script src="assets/js/bootstrap.min.js"></script>
+
+	<script src="assets/materialize/js/materialize.min.js"></script>
+
+	<!-- Metis Menu Js -->
+	<script src="assets/js/jquery.metisMenu.js"></script>
+	<!-- Morris Chart Js -->
+	<script src="assets/js/morris/raphael-2.1.0.min.js"></script>
+	<script src="assets/js/morris/morris.js"></script>
+
+
+	<script src="assets/js/easypiechart.js"></script>
+	<script src="assets/js/easypiechart-data.js"></script>
+
+	<script src="assets/js/Lightweight-Chart/jquery.chart.js"></script>
+
+	<!-- Custom Js -->
+	<script src="assets/js/custom-scripts.js"></script>
+	<script src="js/Comm.js"></script>
+</html>

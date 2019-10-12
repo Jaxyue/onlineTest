@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>个人中心</title>
+		<link rel="stylesheet" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="assets/materialize/css/materialize.min.css" media="screen,projection" />
+		<!-- Bootstrap Styles -->
+		<link href="assets/css/bootstrap.css" rel="stylesheet" />
+		<!-- FontAwesome Styles -->
+		<link href="assets/css/font-awesome.css" rel="stylesheet" />
+		<!-- Morris Chart Styles -->
+		<link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
+		<!-- Custom Styles -->
+		<link href="assets/css/custom-styles.css" rel="stylesheet" />
+		<!-- Google Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="assets/js/Lightweight-Chart/cssCharts.css">
+		<link rel="stylesheet" href="css/comm.css" />
+		<link href="Content/template/css/pace.min.css" rel="stylesheet" />
+		<script src="Content/template/js/pace.min.js"></script>
+		<script src="Content/template/js/jquery-2.2.4.min.js"></script>
+		<script src="Content/template/js/bootstrap.min.js"></script>
+		<script src="Content/template/js/nifty.min.js"></script>
+
+		<script src="Content/template/js/nifty-demo.min.js"></script>
+		<script src="Content/template/js/jquery.datatables.js"></script>
+		<script src="Content/template/js/datatables.bootstrap.js"></script>
+		<script src="Content/template/js/datatables.responsive.min.js"></script>
+
+
+
+	</head>
+	<body>
+		<div id="wrapper">
+
+			<nav class="navbar navbar-default top-navbar" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle waves-effect waves-dark" data-toggle="collapse" data-target=".sidebar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand waves-effect waves-dark" href="index.html"><i class="large material-icons">track_changes</i>
+						<strong>onlineTest</strong></a>
+
+					<div id="sideNav" href=""><i class="material-icons dp48">toc</i></div>
+				</div>
+
+				<ul class="nav navbar-top-links navbar-right">
+
+					<li><a class="dropdown-button waves-effect waves-dark" href="#!" data-activates="dropdown1"><i class="fa fa-user fa-fw"></i>
+							<b></b> <i class="material-icons right">arrow_drop_down</i></a></li>
+				</ul>
+			</nav>
+			<!-- Dropdown Structure -->
+			<ul id="dropdown1" class="dropdown-content">
+				<li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+				</li>
+			</ul>
+
+
+			<!--/. NAV TOP  -->
+			<nav class="navbar-default navbar-side" role="navigation">
+				<div class="sidebar-collapse" id="menu">
+
+
+				</div>
+
+			</nav>
+			<!-- /. NAV SIDE  -->
+
+			<div id="page-wrapper">
+				<div class="header">
+					<h1 class="page-header">
+						个人中心
+					</h1>
+					<hr />
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xs-12 col-md-8">
+								<iframe scrolling="no" src="https://tianqiapi.com/api.php?style=tt&skin=pitaya" frameborder="0" width="590"
+								 height="98" allowtransparency="true"></iframe><br>
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg" onclick="stevalue();">修改密码</button>
+							<!-- 	<input type="button" class="btn btn-info-basic" value="保存整张表到本地" />
+								<input type="button" class="btn btn-info-basic" value="保存当前页到本地" /> -->
+							</div>
+
+							<div class="col-xs-6 col-md-4">
+								<canvas id="clock3_" width="200px" height="200px">
+								</canvas>
+							</div>
+
+
+						</div>
+					</div>
+				
+					<div class="row">
+
+					</div>
+					<!-- Large modal -->
+
+
+					<!-- 修改密码 -->
+					<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+						<div class="modal-dialog modal-lg" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title" id="myModalLabel">修改密码</h4>
+								</div>
+								<div class="modal-body">
+									<div class="form-horizontal">
+										<div class="panel-body">
+											<div class="form-group">
+												<label class="col-sm-3 control-label" for="demo-hor-inputemail">当前账户名：</label>
+												<div class="col-sm-9">
+
+													<input type="text" class="form-control" id="userName" readonly="readonly" />
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-sm-3 control-label" for="demo-hor-inputemail">当前密码：</label>
+												<div class="col-sm-9">
+
+													<input type="password" class="form-control" id="cpwd" placeholder="Current password" />
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-sm-3 control-label" for="demo-hor-inputemail">新密码：</label>
+												<div class="col-sm-9">
+
+													<input type="password" class="form-control" id="npwd" placeholder="New Password" />
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+									<button type="button" class="btn btn-primary" onclick="updata();">确定修改</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+				</div>
+
+				<!-- /. ROW  -->
+
+
+
+
+
+	</body>
+	<script src="jquery/jquery-3.2.1.min.js"></script>
+	<script src="bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery-1.10.2.js"></script>
+	<script src="js/canvas_clock.js"></script>
+	<script src="js/welcome.js"></script>
+
+	<!-- Bootstrap Js -->
+	<script src="assets/js/bootstrap.min.js"></script>
+
+	<script src="assets/materialize/js/materialize.min.js"></script>
+
+	<!-- Metis Menu Js -->
+	<script src="assets/js/jquery.metisMenu.js"></script>
+	<!-- Morris Chart Js -->
+	<script src="assets/js/morris/raphael-2.1.0.min.js"></script>
+	<script src="assets/js/morris/morris.js"></script>
+
+
+	<script src="assets/js/easypiechart.js"></script>
+	<script src="assets/js/easypiechart-data.js"></script>
+
+	<script src="assets/js/Lightweight-Chart/jquery.chart.js"></script>
+
+	<!-- Custom Js -->
+	<script src="assets/js/custom-scripts.js"></script>
+	<script src="js/Comm.js"></script>
+	<script src="js/canvas_clock.js"></script>
+
+	<script>
+		clockd3_ = {
+			"indicate": true,
+			"indicate_color": "#222",
+			"dial1_color": "#666600",
+			"dial2_color": "#81812e",
+			"dial3_color": "#9d9d5c",
+			"time_add": 1,
+			"time_24h": true,
+			"date_add": 3,
+			"date_add_color": "#999",
+		};
+		var c = document.getElementById('clock3_');
+		cns3_ = c.getContext('2d');
+		clock_norm(200, cns3_, clockd3_);
+	</script>
+
+</html>

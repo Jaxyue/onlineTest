@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="assets/materialize/css/materialize.min.css" media="screen,projection" />
+		<!-- Bootstrap Styles-->
+		<link href="assets/css/bootstrap.css" rel="stylesheet" />
+		<!-- FontAwesome Styles-->
+		<link href="assets/css/font-awesome.css" rel="stylesheet" />
+		<!-- Morris Chart Styles-->
+		<link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
+		<!-- Custom Styles-->
+		<link href="assets/css/custom-styles.css" rel="stylesheet" />
+		<!-- Google Fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="assets/js/Lightweight-Chart/cssCharts.css">
+		<link rel="stylesheet" href="css/comm.css" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<nav class="navbar navbar-default top-navbar" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle waves-effect waves-dark" data-toggle="collapse" data-target=".sidebar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand waves-effect waves-dark" href="index.html"><i class="large material-icons">track_changes</i>
+						<strong>onlineTest</strong></a>
+
+					<div id="sideNav" href=""><i class="material-icons dp48">toc</i></div>
+				</div>
+
+				<ul class="nav navbar-top-links navbar-right">
+
+					<li><a class="dropdown-button waves-effect waves-dark" href="#!" data-activates="dropdown1"><i class="fa fa-user fa-fw"></i>
+							<b></b> <i class="material-icons right">arrow_drop_down</i></a></li>
+				</ul>
+			</nav>
+			<!-- Dropdown Structure -->
+			<ul id="dropdown1" class="dropdown-content">
+				<li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+				</li>
+			</ul>
+
+
+			<!--/. NAV TOP  -->
+			<nav class="navbar-default navbar-side" role="navigation">
+				<div class="sidebar-collapse" id="menu">
+
+
+				</div>
+
+			</nav>
+			<!-- /. NAV SIDE  -->
+
+			<div id="page-wrapper">
+				<div class="header">
+					<h1 class="page-header">
+						试卷管理
+					</h1>
+					<hr />
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xs-12 col-md-8">
+								<div class="form-inline">
+									<div class="form-group">
+										<label for="exampleInputName2">请选择专业</label>
+										<select class="form-control qTest">
+											<option value="0">请选择</option>
+											<option value="1">电子商务基础</option>
+											<option value="2">管理学</option>
+											<option value="3">连锁企业门店营运管理</option>
+											<option value="4">统计学原理</option>
+											<option value="5">市场营销原理</option>
+											<option value="6">计算机网络技术</option>
+											<option value="7">大数据应用基础</option>
+											<option value="8">软件开发</option>
+											<option value="9">嵌入式设计开发</option>
+											<option value="10">安卓应用技术开发</option>
+											<option value="11">企业会计</option>
+											<option value="12">国际会计</option>
+											<option value="13">注册会计师</option>
+											<option value="14">计算机与财务管理</option>
+											<option value="15">财务管理</option>
+											<option value="16">旅游学概论</option>
+											<option value="17">旅游管理学</option>
+											<option value="18">旅游政策与法规</option>
+											<option value="19">酒店管理学</option>
+											<option value="20">旅游经济学</option>
+											<option value="21">环境设计</option>
+											<option value="22">视觉传达设计</option>
+											<option value="23">服装与服饰设计</option>
+											<option value="24">音乐学</option>
+											<option value="25">美术学</option>
+										</select>
+										</div>
+										<input type="button" class="btn btn-primary" value="点击随机出题" onclick="qTest()"/>
+										</div>
+							</div>
+							<div id="Test">
+								
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+
+				<!-- /. ROW  -->
+
+			</div>
+
+
+
+	</body>
+	<script src="jquery/jquery-3.2.1.min.js"></script>
+	<script src="bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery-1.10.2.js"></script>
+	<script src="js/TestPaper-Management.js"></script>
+
+	<!-- Bootstrap Js -->
+	<script src="assets/js/bootstrap.min.js"></script>
+
+	<script src="assets/materialize/js/materialize.min.js"></script>
+
+	<!-- Metis Menu Js -->
+	<script src="assets/js/jquery.metisMenu.js"></script>
+	<!-- Morris Chart Js -->
+	<script src="assets/js/morris/raphael-2.1.0.min.js"></script>
+	<script src="assets/js/morris/morris.js"></script>
+
+
+	<script src="assets/js/easypiechart.js"></script>
+	<script src="assets/js/easypiechart-data.js"></script>
+
+	<script src="assets/js/Lightweight-Chart/jquery.chart.js"></script>
+
+	<!-- Custom Js -->
+	<script src="assets/js/custom-scripts.js"></script>
+	<script src="js/Comm.js"></script>
+</html>

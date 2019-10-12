@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <title>考试管理系统</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome</h1>
+        <div class="form">
+            <input class="Text" type="text" placeholder="Username" id="Name">
+            <input class="Text" type="password" placeholder="Password" id="Pwd">
+            <input type="radio" name="radio" class="radio" value="Teacher" />Teacher
+			<input type="radio" name="radio" class="radio" value="Student" />Student
+			<input type="radio" name="radio" class="radio" value="Office" />Dean's Office<br />
+            <input type="button" class="btn btn-success login" value="Login" onclick="Login()" />
+			<!-- <input type="button" class="btn btn-danger registe" value="registe " onclick="registe()" /> -->
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.form').find('input[type=radio]').bind('click', function () {
+            $('.form').find('input[type=radio]').not(this).attr("checked", false);
+        });
+    });
+</script>
+
+<script type="text/javascript" src="bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+</html>
